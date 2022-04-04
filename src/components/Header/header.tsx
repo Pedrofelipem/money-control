@@ -1,7 +1,11 @@
 import logoImg from '../../assets/logo.svg'
 import { Container, Content, LogoTipo } from './styles-header'
 
-export function Header(){
+interface HeaderProps{
+    onOpenNewTransactionModal():void;
+}
+
+export function Header({onOpenNewTransactionModal} : HeaderProps){
     return(
         <Container>
             <Content>
@@ -9,7 +13,7 @@ export function Header(){
                     <img src={logoImg} alt="Money control" />
                     <h3>Money control</h3>
                 </LogoTipo>
-                <button type="button"> Nova transação</button>
+                <button type="button" onClick={onOpenNewTransactionModal}>Nova transação</button>
             </Content>
         </Container>
     )
