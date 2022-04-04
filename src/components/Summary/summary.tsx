@@ -1,13 +1,15 @@
-import logo from '../../assets/logo.svg';
+import income from '../../assets/income.svg';
+import outcome from '../../assets/outcome.svg';
+import total from '../../assets/total.svg'
 import { Container } from './styles-summary';
 
-export function Summary(){
+export function Summary(){ 
     return(
         <Container>
             <div>
                 <header>
                     <p>Entradas</p>
-                    <img src={logo} alt="Entradas" />
+                    <img src={income} alt="Entradas" />
                 </header>
                 <strong>R$1.000,00</strong>
             </div>
@@ -15,7 +17,7 @@ export function Summary(){
             <div>
                 <header>
                     <p>Saídas</p>
-                    <img src={logo} alt="Entradas" />
+                    <img src={outcome} alt="Entradas" />
                 </header>
                 <strong>- R$500,00</strong>
             </div>
@@ -23,7 +25,7 @@ export function Summary(){
             <div className='righlight-back'>
                 <header>
                     <p>Total</p>
-                    <img src={logo} alt="Entradas" />
+                    <img src={total} alt="Entradas" />
                 </header>
                 <strong>R$500,00</strong>
             </div>

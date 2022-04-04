@@ -1,6 +1,6 @@
 
 import { Summary } from '../Summary/summary'
-import { TransactionsTable } from '../transactionsTable/transactionsTable'
+import { TransactionsTable } from '../TransactionsTable/transactionsTable'
 import {Container} from './styles-deshboard'
 export function Dashboard(){
     return(
