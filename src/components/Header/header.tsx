@@ -1,6 +1,5 @@
 import logoImg from '../../assets/logo.svg'
 import { Container, Content, LogoTipo } from './styles-header'
-
 interface HeaderProps{
     onOpenNewTransactionModal():void;
 }
