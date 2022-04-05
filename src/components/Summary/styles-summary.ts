@@ -12,13 +12,13 @@ export const Container = styled.main`
     border-radius: 0.25rem;
     color: var(--text-title);
 
-    header{
+    header {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
-    strong{
+    strong {
         display: block;
         margin-top: 1rem;
         font-size: 2rem;
@@ -26,7 +26,7 @@ export const Container = styled.main`
         line-height: 3rem;
     }
 
-    &.righlight-back{
+    &.righlight-back {
         background: var(--green);
     }
 }
