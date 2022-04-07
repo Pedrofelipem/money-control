@@ -12,13 +12,14 @@ interface NewTransactionModalProps{
 }
 
 export function NewTransactionModal({isOpen,  onRequestClose}: NewTransactionModalProps){
-    
+
     const [title, setTitle] =  useState('');
     const [value, setValue] =  useState(0);
     const [category, setCategory] =  useState('');
     const [type, setType] = useState('deposit');
 
     function handleCreateNewTransaction(event: FormEvent) {
+        
         event.preventDefault();
 
         const data = {
@@ -28,7 +29,7 @@ export function NewTransactionModal({isOpen,  onRequestClose}: NewTransactionMod
             type
         };
 
-        api.post('transactions', data)
+        api.post('/transactions', data)
 
     }
 
