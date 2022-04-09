@@ -23,7 +23,7 @@ createServer({
         {
           id: 2,
           title: 'Aluguel',
-          type: 'whithDraw',
+          type: 'withDraw',
           category: 'Casa',
           amount: 800,
           createdAt: new Date('2022-05-28 10:00:00')
@@ -31,7 +31,7 @@ createServer({
         {
           id: 3,
           title: 'Combustível',
-          type: 'whithDraw',
+          type: 'withDraw',
           category: 'Carro',
           amount: 300,
           createdAt: new Date('2022-05-10  11:00:00')

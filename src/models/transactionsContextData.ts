@@ -3,5 +3,5 @@ import { TrasanctionInput } from "./trasanctionInput";
 
 export interface TransactionsContextData {
     transactions: Transaction[];
-    createTransaction: (Transaction: TrasanctionInput) => void;
+    createTransaction: (Transaction: TrasanctionInput) => Promise<void>;
 }

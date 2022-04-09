@@ -16,14 +16,22 @@ export function TransactionsProvider({children}: TransactionsProviderProps) {
     }, []);
 
     
-    function createTransaction(transaction: TrasanctionInput) {
-    api.post('/transactions', transaction)
+    async function createTransaction(transactionInput: TrasanctionInput) {
+        const response = await api.post('/transactions', {
+            ...transactionInput,
+            createdAt: new Date(),
+        })
+        const { transaction } = response.data;
+
+        setTransactions([
+            ...transactions,
+            transaction
+        ]);
     }
 
     return(
         <TransactionsContext.Provider value={{transactions, createTransaction}}>
             {children}
-        </TransactionsContext.Provider>
-        
+        </TransactionsContext.Provider>   
     );
 }
