@@ -1,3 +1,5 @@
+# **Money control**: sistema de gerenciamento de contas 
+
 <div align="center">
   <img src="./assets/ignite.png">
 </div>
@@ -10,8 +12,9 @@
 
 # 📝 Sobre
 
-Money control é um sistema de controle de finanças pessoais, para gerir as contas de entradas e saídas, utilizando uma API Fake no MirajeJS. 
+Money control é um sistema de controle de finanças pessoais, para gerenciar contas de entradas e saídas, utilizando uma API Fake no MirajeJS. 
 </br>
+
 </br>
 
 # 📁 Estrutura do projeto
@@ -23,22 +26,40 @@ Money control é um sistema de controle de finanças pessoais, para gerir as con
 - models: A pasta contém algumas tipagens, onde posso atribuir tipo na linguagem.
 - styles: A pasta contém os estilos globais do projeto.
 
+</br>
+
 # 🎥 Vídeo
 
+Esse vídeo demonstrativo descreve a principal função do sistema. No vídeo podemos ver os seguintes passos:
+
+1. Cadastrar uma despesa <strong>"saída"</strong>.
+
+2. Listagem da despesa <strong>"saída"</strong> e atualização do resumo.
+
+3. Cadastrar um trabalho <strong>"entrada"</strong>.
+
+4. Listagem da <strong>"entrada"</strong> e atualização do resumo.
+
+</br>
+
 <div align="center">
-    <img src="./assets/gif/money-control.gif" alt="Vídeo">
+    <img src="./assets/gif/money-control.gif" alt="Vídeo" height="500px">
+  
 </div>
+
+</br>
 
 # 🎨 Imagens
 
-<div>
-    <img src="./assets/money-control1" alt="Início" height="400px">
-    <img src="./assets/money-control2" alt="Formulário" height="550px">
-    <img src="./assets/money-control3.jpg" alt="Início atualizado" height="550px">
+</br>
+
+<div align="center">
+    <img src="./assets/money-control1.png" alt="Início" height="350px">
+    <img src="./assets/money-control2.png" alt="Formulário" height="350px">
+    <img src="./assets/money-control3.png" alt="Início atualizado" height="350px">
 </div>
 
 <br/>
-
 
 # 🚀 Tecnologias utilizadas
 
@@ -68,6 +89,8 @@ $ cd money-control
 $ npm i
 
 $ npm start
+
+porta - http://localhost:3000/
 ```
 
 ## Contato
