@@ -1,33 +1,40 @@
 <div align="center">
-  <img src="./../assets/ignite.png">
+  <img src="./assets/ignite.png">
 </div>
 <a href="https://rocketseat.com.br">
   <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2306b656?style=flat-square">
 </a>
 
+</br>
+</br>
 
 # 📝 Sobre
 
-Money control é um sistema de controle de finanças pessoais, para gerir as contas de entradas e saídas, utilizando uma API de Fake do MirajeJS. 
+Money control é um sistema de controle de finanças pessoais, para gerir as contas de entradas e saídas, utilizando uma API Fake no MirajeJS. 
 </br>
 </br>
-
 
 # 📁 Estrutura do projeto
 
-- Components : A pasta contém alguns componentes que são renderizados na tela principal.
-- Models: A pasta contém algumas tipagens, onde posso atribuir tipo na linguagem.
-- Navigations: A pasta contém a navegação principal.
-- Providers: A pasta contém alguns arquivos, que são responsaveis pelo consumo da API e gerenciamento.
-- Screens: A pasta contém todas as telas do projeto.
-- Styles: A pasta contém todos os estilos do projeto.
+- providers: A pasta contém alguns arquivos, que são responsaveis pelo consumo da API e gerenciamento.
+- assets: A pasta contém arquicos de imagens que são renderiados no projeto.
+- components : A pasta contém alguns componentes que são renderizados na tela principal.
+- hooks: A pastar contém os hooks da aplicação.
+- models: A pasta contém algumas tipagens, onde posso atribuir tipo na linguagem.
+- styles: A pasta contém os estilos globais do projeto.
+
+# 🎥 Vídeo
+
+<div align="center">
+    <img src="./assets/gif/money-control.gif" alt="Vídeo">
+</div>
 
 # 🎨 Imagens
 
 <div>
-    <img src="./assets/print-01 (1).jpg" alt="Login" height="550px">
-    <img src="./assets/print-01 (2).jpg" alt="Cadastro" height="550px">
-    <img src="./assets/print-01 (3).jpg" alt="Home" height="550px">
+    <img src="./assets/money-control1" alt="Início" height="400px">
+    <img src="./assets/money-control2" alt="Formulário" height="550px">
+    <img src="./assets/money-control3.jpg" alt="Início atualizado" height="550px">
 </div>
 
 <br/>
@@ -37,25 +44,15 @@ Money control é um sistema de controle de finanças pessoais, para gerir as con
 
 - TypeScript
 - JavaScript
-- React Native
-- Expo
-- Yarn
-- Axios
+- ReactJS
+- MirageJS
 - NodeJS
+- NPM
+- Axios
+- Polished
 - Styled Components
 
 <br/>
-
-# ⏳ Acessar App 
-
-Para acessar o app de forma fácil e rápida, basta seguir as instruções. Será necessário instalar o expo no seu android [EXPO](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US).
-
-```bash
-$ instalar o expo
-$ escanear QRcode 
-
-Neste Link está o QRcode - https://expo.dev/@pedrof_m10/teste-jrm 
-```
 
 # ✏️ Pré-requisitos
 
@@ -64,13 +61,13 @@ Para conseguir executar o projeto seguir as instruções, será necessário inst
 <br/>
 
 ```bash
-$ git clone https://github.com/Pedrofelipem/tela-autenticacao.git
+$ git clone https://github.com/Pedrofelipem/money-control.git
 
-$ cd tela-autenticacao
+$ cd money-control
 
-$ yarn i
+$ npm i
 
-$ expo start
+$ npm start
 ```
 
 ## Contato
